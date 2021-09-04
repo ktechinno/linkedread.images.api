@@ -19,4 +19,4 @@ RUN apt-get install -y libfontconfig1
 WORKDIR /app
 
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "ktech-api-images.dll"]
+ENTRYPOINT ["dotnet", "linkedread.api.images.dll"]
